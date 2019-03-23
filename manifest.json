@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "name": "TechPolite",
+ "description": "Suggest users about their text responses in a polite way",
+ "version": "1.0",
+ "content_scripts": [{
+      "matches": ["http://*.slack.com/*"],
+      "js": ["contentscript.js"]
+  }],
+"author": "KGB",
+"permissions": [
+          "activeTab"
+    ]
+}
