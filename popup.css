@@ -1,5 +1,47 @@
 
+
+
+
 #rating_1, #rating_2, #rating_3, #rating_4, #rating_5 {
     display: none;
 }
 
+h2 {
+    color: darkslategray;
+    text-align: center;
+}
+
+.container {
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-page, .full-page body {
+    height: 100%;
+}
+
+.full-page td, .full-page th {
+    width: 50%;
+}
+
+body {
+    width: 150px;
+}
+
+#analyze {
+    color:  white; 
+    background: darkslategray; 
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
