@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "TechPolite",
-  "description": "Suggest users about their text responses in a polite way",
+  "name": "EQ-lyzer",
+  "description": "Get feedback about the sentinent in a text response before you hit send",
   "version": "1.0",
   "browser_action": {
     "default_popup": "popup.html"
