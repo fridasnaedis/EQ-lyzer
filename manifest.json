@@ -3,12 +3,17 @@
   "name": "TechPolite",
   "description": "Suggest users about their text responses in a polite way",
   "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
   "content_scripts": [
     {
       "matches": ["http://*.slack.com/*", "https://*.slack.com/*"],
-      "js": ["contentscript.js"]
+      "js": ["Content.js"]
     }
   ],
   "author": "KGB",
-  "permissions": ["activeTab"]
+  "permissions": ["tabs", "https://westus.api.*"]
 }
+
